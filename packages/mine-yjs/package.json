@@ -1,0 +1,13 @@
+{
+  "name": "mine-yjs",
+  "version": "1.0.0",
+  "description": "实现我自己的yjs协同编辑器sdk方案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "liangMouse",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1"
+}
