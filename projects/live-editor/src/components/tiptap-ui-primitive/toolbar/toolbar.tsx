@@ -293,7 +293,7 @@ export const ToolbarGroup = React.forwardRef<HTMLDivElement, BaseProps>(
     const isVisible = useGroupVisibility(groupRef)
 
     if (!isVisible) return null
-
+    // toolbarGroup 如果没有子组件就隐藏
     return (
       <div
         ref={mergeRefs([groupRef, ref])}

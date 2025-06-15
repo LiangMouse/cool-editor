@@ -169,10 +169,10 @@ export const UndoRedoButton = React.forwardRef<
       },
       [onClick, disabled, handleAction]
     )
-
-    if (!editor || !editor.isEditable) {
-      return null
-    }
+    // 默认情况下editor 是null
+    // if (!editor || !editor.isEditable) {
+    //   return <div>123</div>
+    // }
 
     return (
       <Button
