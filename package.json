@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev --filter doc projects/docs",
+    "docs:build": "vitepress build --filter doc projects/docs",
+    "docs:preview": "vitepress preview --filter doc projects/docs"
   },
   "keywords": [],
   "author": "",
